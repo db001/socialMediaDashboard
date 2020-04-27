@@ -1,0 +1,23 @@
+.topStrip {
+    background-color: $backgroundLight;
+    display: flex;
+    flex-direction: column;
+    font-weight: $fontWeightBold;
+    height: 15vw;
+    color: $textColourLight;
+    div {
+        max-width: 1048px;
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+    }
+
+    h1 {
+        color: $textVeryDarkBlue;
+        margin: 32px 0 0;
+    }
+
+    p {
+        font-weight: $fontWeightBold;
+    }
+}

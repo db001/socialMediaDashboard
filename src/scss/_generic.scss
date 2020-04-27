@@ -1,0 +1,19 @@
+// Reset and/or normalize styles, box-sizing, etc.
+
+body.lightTheme {
+    background-color: $white;
+    color: $textColourLight;
+}
+
+body.darkTheme {
+    background-color: $backgroundDark;
+    color: $textColourDark;
+}
+
+section {
+    width: 100%;
+}
+
+.metricsContainer {
+    margin-top: -76px;
+}

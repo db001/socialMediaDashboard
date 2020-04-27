@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body.lightTheme {
+  background-color: white;
+  color: #63687e; }
+
+body.darkTheme {
+  background-color: #1e202a;
+  color: #8b97c6; }
+
+section {
+  width: 100%; }
+
+.metricsContainer {
+  margin-top: -76px; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px; }
+
+.topStrip {
+  background-color: #f5f7ff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  height: 15vw;
+  color: #63687e; }
+  .topStrip div {
+    max-width: 1048px;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%; }
+  .topStrip h1 {
+    color: #1e202a;
+    margin: 32px 0 0; }
+  .topStrip p {
+    font-weight: 700; }
+
+.socialCardContainer,
+.overviewContainer {
+  display: flex;
+  justify-content: space-between; }
+
+.socialCardContainer,
+.overviewWrapper {
+  max-width: 1048px;
+  margin: 0 auto;
+  width: 100%; }
+
+.card {
+  background-color: #f0f2fa;
+  box-sizing: border-box;
+  width: calc(25% - 8px);
+  margin-right: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+  .card.socialCard {
+    min-height: 150px;
+    max-height: 200px; }
+  .card:before {
+    height: 3px; }
+  .card#fbCard:before {
+    content: "";
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: deepskyblue; }
+  .card#twitterCard:before {
+    content: "";
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #1ca0f2; }
+  .card#instaCard:before {
+    content: "";
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(to right, #fdc468, #df4996); }
+  .card#ytCard:before {
+    content: "";
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #c4032a; }
+  .card .handle {
+    font-size: 12px;
+    font-weight: 700; }
+  .card .number {
+    font-weight: 700;
+    font-size: 32px; }
+  .card .unit {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px; }
+  .card .change {
+    font-weight: 700;
+    font-size: 10px; }
+    .card .change.positive {
+      color: #1db489; }
+    .card .change.negative {
+      color: #dc414c; }
+
+.lightTheme .card .number {
+  color: #1e202a; }
+
+/*# sourceMappingURL=styles.css.map */
